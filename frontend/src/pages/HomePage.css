@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header */
+  header {
+    background-color: #003366;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1rem;
+  }
+  
+  nav a:hover {
+    color: #ff9f00;
+  }
+
+  /* How It Works Section */
+  .how-it-works {
+    background-color:black;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .how-it-works h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ae7211;
+  }
+  .how-it-works h3 {
+    color: #5c1358;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
+  .step h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .step ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .step li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Features Section */
+  .features {
+    background-color:black;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #a16e1c;
+  }
+  
+  .feature-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
+  .feature {
+    background-color: rgb(40, 40, 40);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(168, 164, 164);
+    width: 25%;
+  }
+  
+  .feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color:rgb(186, 184, 184);
+  }
+  
+  .feature p {
+    font-size: 1.1rem;
+    color:rgb(131, 130, 130);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    color: white;
+  }
+  
+  .social-links a:hover {
+    color: #ff9f00;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .steps, .feature-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .step, .feature {
+      width: 80%;
+      margin-bottom: 30px;
+    }
+  }
+  

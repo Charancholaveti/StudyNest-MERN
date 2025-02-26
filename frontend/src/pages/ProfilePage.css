@@ -1,0 +1,134 @@
+/* src/pages/ProfilePage.css */
+
+.profile-page {
+    font-family: Arial, sans-serif;
+    color:white;
+    background-color:black;
+    padding: 20px;
+    /* width:50%;
+    margin:0 auto;
+    margin-top:2%; */
+   
+}
+/* .profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}  */
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.head1{
+    color:#337;
+    align-items: center;
+    font-size:3rem;
+    text-shadow: 1px 1px 3px rgb(243, 245, 244);
+}
+
+.profile-details {
+    flex: 1;
+}
+.profile-details b{
+    color:#337;
+}
+
+
+.create-classroom-btn {
+    background-color: #021;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-classroom-btn:hover {
+    background-color: #555;
+}
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.popup-content input,
+.popup-content textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup-buttons button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup-buttons button:hover {
+    background-color: #555;
+}
+.classroom-list {
+    margin-top: 20px;
+    color:#337;
+    padding: 20px;
+}
+
+.classroom-list table {
+    width: 50%;
+    border-collapse:collapse;
+    background-color:white;
+    border-radius: 5px;
+    overflow: hidden;
+    color:#333;
+}
+
+.classroom-list th,
+.classroom-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+.classroom-list th {
+    background-color: #333;
+    color: white;
+}
+
+.classroom-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.classroom-list tr:hover {
+    background-color:#ddd;
+}
+
