@@ -12,7 +12,7 @@ const port = process.env.PORT
 require('./db')
 
 
-const allowedOrigins = [process.env.FRONTEND_URL || 'https://studynest-mern-backend.onrender.com/']; // Add more origins as needed
+const allowedOrigins = [process.env.FRONTEND_URL || 'https://studynest-mern-frontend.onrender.com/#/login']; // Add more origins as needed
 
 app.use(
     cors({
